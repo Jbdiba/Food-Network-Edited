@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+/* BOX SIZING ADDED TO ALL ELEMENT TO KEEP EVERY MARGIN, PADDING AND BORDER UNDER FIXED BOX WIDTH*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0 auto; /* This line added to make the website center aligned (When zoom out) */
+    /* max-width: 1440px; added to wrap all element of the website in a fixed width (as all viewers display ratio and size isn't same)
+    width: 100%;  */
+}
+.intro{
+    display:flex;
+}
+h1{font-size:40px;}
+.marg{margin-top: 5%;
+    margin-left: 5%;}
+
+.green{color:green;}
+
+section{display:flex;}
+.intro-text{
+    
+    margin:10% 5%;
+}
+.intro-img{
+   
+    margin:0 0 10% 0;
+}
+
+
+.lady-img{
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    }
+
+.intro{
+    
+    justify-content: space-between;
+    
+    }
+    
+.link-button{text-decoration:none;
+    color:white;
+    background-image:linear-gradient(green, yellowgreen);
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    }
+
+.top-banner{
+    background-image: url(7.png);
+    width:100%;
+    display: flex;
+    height:500px;
+    margin-top: 8em;}
+
+.about-us{
+    position:relative;
+    z-index:1;
+    left: 700px;
+    height: 350px;
+    width: 450px;
+    margin-top:80px;
+    color:rgb(78, 76, 76);
+    font-weight: 900;
+    text-align: center;
+    text-align:left;
+    }
+
+.col-green{color:green;
+    position: absolute;
+    right:350px;}
+.keto-coleection{margin-top: 4em;
+    margin-bottom:5em;}
+
+.second-button{
+    position: absolute;
+    right:310px;
+    margin-top: 3em;
+    text-decoration:none;
+    color:white;
+    background-image:linear-gradient(green, yellowgreen);
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.pos-cen {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* .flexible-container{display:inline-flex; 
+    margin-left: 5%;
+    margin-right:5%;
+    padding-left: 20px;
+    border-radius:20px;
+    box-shadow: 10px 20px 40px gray;}
+.third-image{
+    box-shadow: 10px 20px 40px gray;
+    width:250px;
+    height:200px;
+    border-radius: 20px;}
+.keto-col{color:green;} */
+
+/* =========RECIPIES SECTION START========= */
+.recipies {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+    margin: 50px 0;
+}
+
+.recipie-card {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 1px 3px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.recipie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.recipie-card h3 {
+    margin-bottom: 20px;
+}
+/* =========RECIPIES SECTION END========= */
+
+/* .sample-rounded-box{color:black;
+    width:800px;
+    height:100px;
+    background-color: rgba(86, 216, 11, 0.849);
+    border-radius: 50px;
+    padding:10px;
+    margin-top: 6em;
+    margin-bottom: 100px;
+    box-shadow: 10px 20px 40px gray;
+    display:inline-flex;
+    margin-left: 18%;} */
+
+/* =========NEW STYLE WRITTEN FOR SOCIAL CONTAINER========= */
+.social-feedback {
+    display: block;
+    width: 100%;
+    padding: 0 5%;
+    margin: 50px 0;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 3px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    padding: 20px 5%;
+}
+
+.another{font-weight: 700;}
+   
+
+.div5{height:2in;
+    background-color: gray;}
+.last{margin-top: 2em;
+    text-align: center;}
+    
+
